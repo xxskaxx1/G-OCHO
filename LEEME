@@ -1,0 +1,29 @@
+//PRUEBA TECNICA PARA LA EMPRESA G8
+
+AUTOR: Sergio Rodriguez
+
+Tecnologias usadas:
+Para realizar la aplicación se uso el framework laravel en su versión mas reciente, 8.*
+Para los estilos de la tabla, modals y botones, se uso la libreria boostrap.
+Para el envio de datos se uso la libreria Jquery y ajax.
+en la base de datos se uso Mysql como motor de base de datos.
+el login de la aplcación se ejecuto mediante brezee del framework laravel.
+
+Para instalar la aplicación.
+
+La aplicación esta subida en un repositorio de Git, para la instalación debe seguir los siguientes pasos:
+
+1. crear una carpeta
+2. ejecutar git bach dentro de esa carpeta
+3. ejecutar el comando git init
+4. ejecutar el comando git remote add origin https://github.com/xxskaxx1/G-OCHO.git
+5. ejecutar el comando git pull origin master
+6. ejecutar el comando composer update o en su defecto composer install
+7. restablecer base de datos desde el archivo que se encuentra en esta carpeta pruebag8.sql
+8. pegar el archivo .env dentro de esta nueva carpeta(Este archivo se encuentra adjunto ene ste correo)
+9. ejecutar el comando php artisan serve(Ejecuta el servidor de laravel para la aplicación)
+10. dirigirse a la ruta en el anvegador, por defecto es 127.0.0.1:8000
+
+Requisitos previos:
+debe tener instalador PHP en una versión 7.3* o superior
+debe tener instalado composer 
